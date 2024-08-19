@@ -1,0 +1,72 @@
+<% content_for :title, "Categories" %>
+
+<!-- Container with background color and padding -->
+<div class="py-6 bg-gray-100">
+  <h1 class="text-2xl sm:text-3xl font-bold text-center mb-4 sm:my-8">Categories</h1>
+
+  <div class="container mx-auto px-2 sm:px-6 mb-8">
+    <div class="flex flex-wrap justify-center gap-2">
+      <% @categories.each do |category| %>
+        <div class="relative bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-200 ease-in-out hover:scale-105">
+          <%= link_to category_path(category), class: "block p-2 sm:p-3 text-center hover:bg-green-100 transition-colors duration-200" do %>
+            <h3 class="text-xs sm:text-sm font-semibold text-gray-800 group-hover:text-green-600"><%= category.name %></h3>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<h1 class="text-2xl sm:text-3xl font-bold text-center my-6 sm:my-8">Products</h1>
+
+<div class="mb-6 flex flex-col sm:flex-row justify-between items-center gap-2">
+  <!-- Filter Options -->
+  <%= form_with url: products_path, method: :get, local: true, class: "flex space-x-2 sm:space-x-4 w-full sm:w-auto" do %>
+    <div>
+      <%= select_tag :filter, options_for_select([['On Sale', 'on_sale'], ['New', 'new'], ['Recently Updated', 'recently_updated']], params[:filter]), include_blank: 'Filter by', class: "shadow appearance-none border rounded-lg py-1 px-2 sm:py-2 sm:px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-36 sm:w-48 text-xs sm:text-sm" %>
+    </div>
+    <div>
+      <%= submit_tag "Filter", class: "bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-lg focus:outline-none focus:shadow-outline text-xs sm:text-sm" %>
+    </div>
+  <% end %>
+
+  <!-- Search Bar -->
+  <%= form_with url: products_path, method: :get, local: true, class: "flex space-x-2 sm:space-x-3 w-full sm:w-auto" do %>
+    <div class="flex w-full sm:w-auto">
+      <%= text_field_tag :search, params[:search], placeholder: "Search products...", class: "shadow appearance-none border rounded-l-lg py-1 sm:py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-full sm:w-64 text-xs sm:text-sm" %>
+      <%= select_tag :category, options_from_collection_for_select(Category.all, :id, :name, params[:category]), include_blank: true, class: "shadow appearance-none border-t border-b border-r rounded-r-lg py-1 sm:py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-36 sm:w-48 text-xs sm:text-sm" %>
+    </div>
+    <div>
+      <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 sm:py-2 sm:px-3 rounded-lg focus:outline-none focus:shadow-outline flex items-center justify-center">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  <% end %>
+</div>
+
+<div class="mb-4 flex justify-end text-xs">
+  <%= paginate @products %>
+</div>
+
+<% if @products.any? %>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pb-12">
+    <% @products.each do |product| %>
+      <%= link_to product_path(product), class: "group" do %>
+        <div class="bg-white rounded-lg shadow p-4 text-center transform transition-transform duration-200 ease-in-out hover:scale-105">
+          <% if product.images.attached? %>
+            <%= image_tag url_for(product.images.first), class: "rounded-lg hover:brightness-75 transition-all duration-300 w-full h-48 object-cover" %>
+          <% else %>
+            <div class="w-full h-48 bg-gray-200 mb-4"></div>
+          <% end %>
+          <h3 class="text-lg font-semibold text-green-600 group-hover:text-green-800"><%= product.name %></h3>
+          <p class="mt-2 text-gray-700"><%= product.description %></p>
+          <p class="mt-2 font-bold text-lg text-green-600"><%= number_to_currency(product.price) %></p>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+<% else %>
+  <div class="text-center text-gray-700 mt-8">
+    <p>No products found matching your search criteria.</p>
+  </div>
+<% end %>

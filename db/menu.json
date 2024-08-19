@@ -1,0 +1,892 @@
+{
+    "appetizers": [
+        {
+            "name": "HUMMUS",
+            "price": 7.99,
+            "description": "Chickpeas, tahini, lemon, garlic & extra virgin olive oil.",
+            "options": [
+                "V",
+                "GF"
+            ],
+            "served_with": "one pita bread or gf tortilla",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/1-website-square-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "BABA GHANOUJ",
+            "price": 8.99,
+            "description": "Grilled eggplant, parsley, tomatoes, bell peppers, lemon, extra virgin olive oil & pomegranate molasses.",
+            "options": [
+                "V",
+                "GF"
+            ],
+            "served_with": "one pita bread or gf tortilla",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/website-square-2-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FALAFEL",
+            "price": 9.99,
+            "description": "Chickpeas, parsley, cilantro, garlic, onions.",
+            "options": [
+                "V",
+                "GF"
+            ],
+            "extra": {
+                "price": 1.50,
+                "description": "additional"
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/falafel-copy.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "KUBBEH",
+            "price": 10.99,
+            "description": "Ground beef, cracked wheat, onions.",
+            "extra": {
+                "price": 2.50,
+                "description": "additional pieces"
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/KUBBEH-SQUARE-scaled.jpg?fit=1024%2C860&ssl=1"
+        },
+        {
+            "name": "LABNEH",
+            "price": 8.99,
+            "description": "Strained Yogurt, Salt. Choose your flavour : Original, Za'atar, Zaytoon, Walnut mint.",
+            "options": [
+                "VG",
+                "GF"
+            ],
+            "served_with": "one pita bread or gf tortilla",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/LABNEHJPG-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FOUL",
+            "price": 7.99,
+            "description": "Fava beans, chickpeas, garlic, tomato, parsley, lemon, extra virgin olive oil & tahini sauce.",
+            "options": [
+                "GF",
+                "V"
+            ],
+            "served_with": "one pita bread or gf tortilla",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-8-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "DOUBLE DIP",
+            "price": 12.99,
+            "description": "Sample any 2 of your favourite dips from our appetizers into one double-dip combo. Choose from the following: Hummus, Baba Ghanoush, Labneh & Foul.",
+            "options": [
+                "GF"
+            ],
+            "served_with": "one pita bread or gf tortilla",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/dd-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "BEEF HUMMUS",
+            "price": 13.99,
+            "description": "Our classic hummus dip topped with freshly cooked ground beef. Finished with olive oil and roasted almonds.",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "served_with": "one pita bread or gf tortillas",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2024/02/beef-hummus-square-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "shareables": [
+        {
+            "name": "YALANGI",
+            "price": 10.99,
+            "description": "Grape leaves stuffed with coarse rice, parsley, onions, tomatoes, pomegranate molasses.",
+            "options": [
+                "V",
+                "GF"
+            ],
+            "pieces": 8,
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/wesbite-copy-1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "ARABIC TWIST TACOS",
+            "price": 16.99,
+            "description": "Gluten Free soft corn tortilla tacos with a Middle Eastern twist. Choose from three kinds: Chicken Shawarma GF, DF, Beef Shawarma GF, DF or Falafel - GF, V.",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "note": "Sample all three for the same price - one of each kind.",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/2JPGG-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "POUTINE",
+            "price": 13.99,
+            "description": "French fries topped with cheese curds and gravy. Add chicken or beef shawarma - $4.99.",
+            "options": [
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/01/IMG_0081.jpeg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MUSAKHAN ROLLS",
+            "price": 15.99,
+            "description": "A modernized version of the traditional Palestinian dish: Shredded chicken, caramelized onions, extra virgin olive oil + sumac.",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-5-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MFARAKEH",
+            "price": 12.99,
+            "description": "Fried potatoes, eggs + thyme.",
+            "options": [
+                "GF",
+                "DF",
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website3-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "SAMOSAS",
+            "price": 11.99,
+            "description": "Stuffed phyllo dough. Choose your flavour: Cheese, vegetable or Beef & Veggies.",
+            "pieces": 4,
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/IMG_1479-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MEZZI BOARD",
+            "price": 25.00,
+            "description": "Hummus + mini falafel board + Labneh + za'atar rolls board.",
+            "options": [
+                "Both - $25.00 ",
+                "One - $15.00"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/example-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "fatteh": [
+        {
+            "name": "FATTEH KOFTA",
+            "price": 15.99,
+            "description": "Kofta (meatballs), fried pita, chickpeas, tahini, yogurt, lemon, pomegranate molasses, garlic & fried almonds.",
+            "options": [
+                "GF OPTION AVAILABLE"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/fatteh-3-test-2-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "EGGPLANT FATTEH",
+            "price": 15.99,
+            "description": "Fried eggplant, fried pita, chickpeas, tahini, yogurt, lemon, pomegranate molasses, garlic & fried almonds.",
+            "options": [
+                "VG",
+                "GF OPTION AVAILABLE"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-3-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FATTEH MSAHAB",
+            "price": 15.99,
+            "description": "White rice, pulled chicken, fried pita, yogurt, lemon, garlic & fried almonds.",
+            "options": [
+                "GF OPTION AVAILABLE"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/websitw-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FATTEH HUMMUS",
+            "price": 15.99,
+            "description": "Hummus, fried pita, chickpeas, lemon, garlic & fried almonds.",
+            "options": [
+                "V",
+                "GF OPTION AVAILABLE"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-copy-2-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "salads": [
+        {
+            "name": "CITRUS ARUGULA",
+            "price": 13.99,
+            "description": "Arugula, mixed greens, radishes, clementines, medjool dates, roasted pumpkin seeds.",
+            "options": [
+                "GF",
+                "V"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/citrus-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "SEASONAL",
+            "price": 13.99,
+            "description": "Spinach, red onions, sumac, feta cheese, roasted walnuts, pomegranate seeds or strawberries.",
+            "options": [
+                "GF",
+                "VG (V option available)"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/01/seasonal-salad.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FATTOUSH",
+            "price": 12.99,
+            "description": "Iceberg lettuce, tomatoes, cucumber, radishes, parsley, green onions, pomegranate molasses, thyme, fried pita + sumac.",
+            "options": [
+                "V (GF OPTION AVAILABLE)"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/fattoush-square-1-scaled.jpg?fit=1024%2C860&ssl=1"
+        },
+        {
+            "name": "KALE TABOULEH",
+            "price": 12.99,
+            "description": "Kale, burgul (cracked wheat), green onions, tomatoes, mint & lemon.",
+            "options": [
+                "V"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-9-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "GOLDEN CRISP",
+            "price": 13.99,
+            "description": "Mixed greens, cherry tomatoes, fried cheese & pecans.",
+            "options": [
+                "GF",
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/salad-1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "fatayer": [
+        {
+            "name": "FALAFEL",
+            "price": 6.99,
+            "description": "Baked 7-inch dough topped with fresh fried falafel, tahini, tomatoes + olives.",
+            "options": [
+                "V"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/01/website-fatayer-1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "PALESTINIAN ZA'ATAR",
+            "price": 5.99,
+            "description": "Baked 7-inch dough topped with a mixture of thyme, olive oil, toasted sesame seeds, sumac + salt.",
+            "options": [
+                "V"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "LABNEH",
+            "price": 6.99,
+            "description": "Baked 7-inch dough topped with house made labneh, olive oil, mint & arugula.",
+            "options": [
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-7-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "3 CHEESE BLEND",
+            "price": 6.99,
+            "description": "Baked 7-inch dough topped with our 3 cheese blend.",
+            "options": [
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "SPINACH & CHEESE",
+            "price": 6.99,
+            "description": "Baked 7-inch dough topped with spinach, onions + feta cheese.",
+            "options": [
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/01/fatayer-website.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MEDDI FATAYER",
+            "price": 7.99,
+            "description": "Baked 7-inch dough topped with homemade tomato sauce, bell peppers, olives, mushrooms, mozzarella cheese + feta cheese.",
+            "options": [
+                "VG"
+            ],
+            "extra": {
+                "price": 2.00,
+                "description": "add ground beef"
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/fatayer-copy.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FOULFIL FATAYTER",
+            "price": 6.99,
+            "description": "Baked 7-inch dough topped with smashed fava beans, tahini, tomatoes + parsley.",
+            "options": [
+                "V"
+            ],
+            "extra": {
+                "price": 1.00,
+                "description": "add feta cheese (NOT VEGAN)"
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/IMG_1375-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "wraps": [
+        {
+            "name": "FALAFEL WRAP",
+            "price": 12.99,
+            "description": "Freshly fried falafel, tahini sauce, tomato, turnip pickles and lettuce all wrapped in pita bread.",
+            "options": [
+                "V",
+                "GF option available"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/square-falafel.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "SHAWARMA",
+            "price": 12.99,
+            "description": "Chicken Shawarma: Marinated chicken, garlic sauce, pickles / Beef Shawarma: Beef, parsley, tomatoes, onions, tahini.",
+            "options": [
+                "DF",
+                "GF option available"
+            ],
+            "extra": {
+                "lettuce": 0.50,
+                "tomatoes": 0.50,
+                "fries": 0.50,
+                "pomegranate molasses": 0.00,
+                "pickled mangos": 0.00,
+                "mix (beef & chicken)": 2.00
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/square-2-shawarma-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MSAHAB WRAP",
+            "price": 12.99,
+            "description": "Pulled chicken, garlic sauce, pickles and fries, all wrapped inside a fresh hot-dog bun.",
+            "options": [
+                "DF",
+                "GF option available"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/msahab-sq-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "OG SHAWARMA COMBO",
+            "price": 19.99,
+            "description": "Our OG shawarma is served in cut up pieces with fries, pickles + your choice of pop.",
+            "options": [
+                "DF",
+                "GF option available"
+            ],
+            "extra": {
+                "mix shawarma": 2.00
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/og1-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "ZAHRA WRAP",
+            "price": 12.99,
+            "description": "Roasted cauliflower, fries, tahini, turnip pickles.",
+            "options": [
+                "V",
+                "GF option available"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-copy-4-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "LETTUCE WRAPS",
+            "price": 15.99,
+            "description": "Shawarma chicken, bell peppers, green onions, sweet & sour sauce + peanuts.",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2023/08/IMG_1430-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "main_courses": [
+        {
+            "name": "ZAYTOON GRILLS",
+            "price": 25.00,
+            "description": "Your choice of two protein skewers. Served with spiced rice, hummus or garlic dip, & 1 pita (gf tortilla option).",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "substitutions": {
+                "fries": 1.00,
+                "steamed veggies": 2.00
+            },
+            "additional": {
+                "protein skewer": 7.50,
+                "lamb ribs": 8.50
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/grills1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MASHAWI",
+            "price": 33.00,
+            "description": "Your choice of 3 protein skewers. Served with spiced rice, hummus and garlic dip, grilled veggies & 1 pita (gf tortilla option).",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "substitutions": {
+                "fries": 1.00,
+                "steamed veggies": 2.00
+            },
+            "additional": {
+                "protein skewer": 7.50,
+                "lamb ribs": 8.50
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2024/04/IMG_0830-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "GRILLED LAMB RIBS",
+            "price": 30.00,
+            "description": "3 pcs grilled lamb ribs served with spiced rice, hummus or garlic dip, & 1 pita (gf tortilla option).",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "substitutions": {
+                "fries": 1.00,
+                "steamed veggies": 2.00
+            },
+            "additional": {
+                "protein skewer": 7.50,
+                "lamb ribs": 8.50
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-copy-3-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "SHAWARMA PLATE",
+            "price": 19.99,
+            "description": "Your choice of chicken or beef shawarma, served with spiced rice, hummus or garlic dip.",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "substitutions": {
+                "fries": 1.00,
+                "steamed veggies": 2.00
+            },
+            "additional": {
+                "mix plate": 2.00
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/test1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "MUSAKAA'",
+            "price": 18.99,
+            "description": "Eggplant, lean ground beef + onions cooked in our homemade tomato sauce served with rice. Vegan Option: Eggplant, potatoes, onions, bell peppers + our homemade tomato sauce served with rice.",
+            "options": [
+                "GF",
+                "DF"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/idkk-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "SHAKSHOUKA",
+            "price": 16.99,
+            "description": "Eggs, tomatoes, red peppers, onions, garlic, jalapeño peppers, olive oil + aromatic spices.",
+            "options": [
+                "VG",
+                "GF"
+            ],
+            "extra": {
+                "pita": 1.25
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/website-square-4-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "PAN KOFTA",
+            "price": 17.99,
+            "description": "Kofta (baked lean beef + parsley meatballs) + baked potatoes cooked in (choose your sauce): homemade tomato sauce (DF) or tahini sauce. Served with a side of rice.",
+            "options": [
+                "GF"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/website-square-5-1-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "FALAFEL PLATE",
+            "price": 19.99,
+            "description": "Fresh falafel served with house-made hummus, pickles, and a side of your choice.",
+            "options": [
+                "V",
+                "GF"
+            ],
+            "pieces": 6,
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/IMG_1180-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "BAMYÈ",
+            "price": 15.99,
+            "description": "Okra stew cooked in a rich tomato sauce with basil. Served with white basmati rice.",
+            "options": [
+                "V",
+                "GF"
+            ],
+            "extra": {
+                "ground beef": 4.99
+            },
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/01/bamye-website.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "GRILLED CHICKEN FREEKEH",
+            "price": 19.99,
+            "description": "Freekeh (ancient grains) cooked in chicken broth & served with grilled chicken thighs.",
+            "note": "takes approx 25 – 30 mins to prepare",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/website-6-scaled.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "desserts": [
+        {
+            "name": "BAKLAVA",
+            "price": 2.99,
+            "description": "A layered pastry dessert made of phylo dough filled with chopped pistachios + drizzled with orange blossom syrup.",
+            "options": [
+                "V"
+            ],
+            "pieces": "PER PCS",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2022/08/2-copy-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "KUNAFEH ROLLS",
+            "price": 6.99,
+            "description": "A twist from the original Middle Eastern kunafeh; Shredded phyllo dough layered over creamy cheese, baked in melted vegetarian ghee, drizzled with simple syrup, and topped with crushed pistachios.",
+            "options": [
+                "VG"
+            ],
+            "pieces": "PER PCS",
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/website-square-7-scaled.jpg?fit=1024%2C1024&ssl=1"
+        },
+        {
+            "name": "KUNAFEH",
+            "price": 13.99,
+            "description": "A popular middle eastern dessert made from phyllo semolina dough, unripened cheese, and ghee. It is drizzled with rose water syrup + sprinkled with crushed pistachios or walnuts.",
+            "options": [
+                "VG"
+            ],
+            "image_url": "https://i0.wp.com/www.zaytoonwpg.com/wp-content/uploads/2021/08/website-square-6-1.jpg?fit=1024%2C1024&ssl=1"
+        }
+    ],
+    "sides": [
+        {
+            "name": "FRIES",
+            "price": 6.99,
+            "options": [
+                "V",
+                "GF option available"
+            ]
+        },
+        {
+            "name": "WHITE RICE",
+            "price": 4.99,
+            "options": [
+                "GF",
+                "V"
+            ]
+        },
+        {
+            "name": "SPICED RICE",
+            "price": 4.99,
+            "options": [
+                "GF",
+                "V"
+            ]
+        },
+        {
+            "name": "STEAMED VEGETABLES",
+            "price": 6.99,
+            "options": [
+                "GF",
+                "V"
+            ]
+        }
+    ],
+    "drinks": [
+        {
+            "name": "HOT DRINKS",
+            "items": [
+                {
+                    "name": "ESPRESSO",
+                    "price": 2.99
+                },
+                {
+                    "name": "TURKISH COFFEE",
+                    "price": 6.25
+                },
+                {
+                    "name": "AMERICANO",
+                    "price": 3.99
+                },
+                {
+                    "name": "LATTE",
+                    "price": 4.99
+                },
+                {
+                    "name": "CAPPUCINO",
+                    "price": 3.99
+                },
+                {
+                    "name": "CARAMEL MACCHIATO",
+                    "price": 5.99
+                },
+                {
+                    "name": "HONEY HAEL LATTE",
+                    "price": 5.99,
+                    "flavor": "Cardamom"
+                },
+                {
+                    "name": "MOCHA",
+                    "price": 5.99
+                },
+                {
+                    "name": "WHITE MOCHA",
+                    "price": 5.99
+                },
+                {
+                    "name": "HOT CHOCOLATE",
+                    "price": 5.50
+                },
+                {
+                    "name": "LONDON FOGG",
+                    "price": 5.00
+                },
+                {
+                    "name": "MATCHA GREEN TEA LATTE",
+                    "price": 6.50
+                },
+                {
+                    "name": "APPLE CIDER",
+                    "price": 4.75
+                },
+                {
+                    "name": "SAHALAB",
+                    "price": 7.50
+                },
+                {
+                    "name": "CHOCOLATE SAHALAB",
+                    "price": 7.99
+                }
+            ]
+        },
+        {
+            "name": "FRESH JUICES",
+            "items": [
+                {
+                    "name": "LEMON MINT JUICE",
+                    "price": 7.99
+                },
+                {
+                    "name": "STRAWBERRY JUICE",
+                    "price": 7.99
+                },
+                {
+                    "name": "MANGO JUICE",
+                    "price": 7.99
+                }
+            ]
+        },
+        {
+            "name": "ICED DRINKS",
+            "items": [
+                {
+                    "name": "ICED COFFEE",
+                    "price": 4.99
+                },
+                {
+                    "name": "ICED LATTE",
+                    "price": 4.99
+                },
+                {
+                    "name": "ICED MOCHA",
+                    "price": 5.99
+                },
+                {
+                    "name": "ICED WHITE MOCHA",
+                    "price": 5.99
+                },
+                {
+                    "name": "ICED CARAMEL MACCHIATO",
+                    "price": 5.99
+                },
+                {
+                    "name": "ICED TEA",
+                    "price": 4.50
+                },
+                {
+                    "name": "ICED MATCHA GREEN TEA LATTE",
+                    "price": 6.50
+                },
+                {
+                    "name": "ICED KARKADIEH (HIBISCUS)",
+                    "price": 5.50
+                },
+                {
+                    "name": "ICED ROSE MATCHA",
+                    "price": 6.50
+                }
+            ]
+        },
+        {
+            "name": "FRAPPES",
+            "items": [
+                {
+                    "name": "COFFEE FRAPPE",
+                    "price": 7.99
+                },
+                {
+                    "name": "CHOCOLATE FRAPPE",
+                    "price": 7.99
+                },
+                {
+                    "name": "CARAMEL FRAPPE",
+                    "price": 7.99
+                }
+            ],
+            "size": "Large"
+        },
+        {
+            "name": "ORGANIC TEAS",
+            "items": [
+                {
+                    "name": "EARL GREY",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "BREAKFAST BLEND",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "JASMINE GREEN TEA",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "MOROCCAN MINT TEA",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "GINGER LEMON",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "CHAMOMILE LEMON",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "BLACK TEA",
+                    "price": 7.50,
+                    "size": "Small"
+                },
+                {
+                    "name": "EARL GREY",
+                    "price": 9.50,
+                    "size": "Large"
+                },
+                {
+                    "name": "BREAKFAST BLEND",
+                    "price": 9.50,
+                    "size": "Large"
+                },
+                {
+                    "name": "JASMINE GREEN TEA",
+                    "price": 9.50,
+                    "size": "Large"
+                },
+                {
+                    "name": "MOROCCAN MINT TEA",
+                    "price": 9.50,
+                    "size": "Large"
+                },
+                {
+                    "name": "GINGER LEMON",
+                    "price": 9.50,
+                    "size": "Large"
+                },
+                {
+                    "name": "CHAMOMILE LEMON",
+                    "price": 9.50,
+                    "size": "Large"
+                },
+                {
+                    "name": "BLACK TEA",
+                    "price": 9.50,
+                    "size": "Large"
+                }
+            ]
+        },
+        {
+            "name": "TEA POT",
+            "items": [
+                {
+                    "size": "Small",
+                    "price": 6.50
+                },
+                {
+                    "size": "Large",
+                    "price": 8.50
+                }
+            ]
+        },
+        {
+            "name": "KARAK TEA POT",
+            "items": [
+                {
+                    "size": "Small",
+                    "price": 11.75
+                },
+                {
+                    "size": "Large",
+                    "price": 13.75
+                }
+            ]
+        },
+        {
+            "name": "SOFT DRINKS",
+            "items": [
+                {
+                    "name": "PEPSI",
+                    "price": 2.00
+                },
+                {
+                    "name": "7-UP",
+                    "price": 2.00
+                },
+                {
+                    "name": "ORANGE CRUSH",
+                    "price": 2.00
+                },
+                {
+                    "name": "DR. PEPPER",
+                    "price": 2.00
+                },
+                {
+                    "name": "WATER",
+                    "price": 1.00
+                },
+                {
+                    "name": "BARBICAN",
+                    "price": 3.50
+                },
+                {
+                    "name": "SANPELLEGRINO",
+                    "price": 2.25
+                },
+                {
+                    "name": "PERRIER",
+                    "price": 1.60
+                }
+            ]
+        },
+        {
+            "name": "SMOOTHIES",
+            "items": [
+                {
+                    "name": "LEMON MINT SMOOTHIE",
+                    "price": 7.99
+                },
+                {
+                    "name": "MATCHA GREEN TEA SMOOTHIE",
+                    "price": 7.99
+                }
+            ]
+        }
+    ]
+}

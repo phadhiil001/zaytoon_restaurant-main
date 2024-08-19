@@ -1,0 +1,52 @@
+<% content_for :title, "Invoice" %>
+
+<div class="container mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+  <%= link_to 'Back to Menu', categories_path, class: 'bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700 mb-4 inline-block' %>
+  <h1 class="text-3xl font-bold mb-6 text-center">Invoice</h1>
+
+  <% if current_user.address.blank? || current_user.province.blank? %>
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center">
+      <p class="text-red-500 mb-4">Please update your profile with your address and province to proceed with the checkout.</p>
+      <%= link_to "Update Profile", edit_user_registration_path, class: "bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors duration-200" %>
+    </div>
+  <% else %>
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 mb-6">
+      <div class="mb-6">
+        <h2 class="text-2xl leading-6 font-medium text-gray-900 py-2">Shipping Address</h2>
+        <p class="mt-1 text-sm text-gray-500"><%= current_user.address %></p>
+        <p class="mt-1 text-sm text-gray-500"><%= current_user.province.name %></p>
+        <%= link_to "Update Profile", edit_user_registration_path, class: "bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-700 transition-colors duration-200 mt-2 inline-block" %>
+      </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+      <div>
+        <h2 class="text-2xl leading-6 font-medium text-gray-900">Order Summary</h2>
+        <% @order_items.each do |item| %>
+          <div class="mt-4">
+            <p class="mt-1 text-sm text-gray-500"><strong>Status:</strong> <%= @order.status %></p>
+            <p class="text-gray-700"><%= item.product.name %> - <%= number_to_currency(item.price) %> x <%= item.quantity %></p>
+          </div>
+        <% end %>
+        <div class="mt-4 border-t border-gray-200 pt-4">
+          <% if @order_tax.gst.positive? %>
+            <p class="text-gray-700">GST: <%= number_to_percentage(@order_tax.gst * 100, precision: 2) %></p>
+          <% end %>
+          <% if @order_tax.pst.positive? %>
+            <p class="text-gray-700">PST: <%= number_to_percentage(@order_tax.pst * 100, precision: 2) %></p>
+          <% end %>
+          <% if @order_tax.hst.positive? %>
+            <p class="text-gray-700">HST: <%= number_to_percentage(@order_tax.hst * 100, precision: 2) %></p>
+          <% end %>
+          <% if current_user.province.name == 'Quebec' && @order_tax.qst.positive? %>
+            <p class="text-gray-700">QST: <%= number_to_percentage(@order_tax.qst * 100, precision: 2) %></p>
+          <% end %>
+          <p class="text-gray-700 font-bold">Total: <%= number_to_currency(@order.total_price) %></p>
+        </div>
+        <div class="mt-12 text-center">
+          <%= link_to "Proceed to Payment", create_checkout_session_order_path(@order), method: :post, class: "ml-2 bg-green-500 text-white px-5 py-2 rounded hover:bg-green-700 transition-colors duration-200" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
