@@ -21,5 +21,10 @@ test:
   database: storage/test.sqlite3
 
 production:
-  <<: *default
-  database: storage/production.sqlite3
+  adapter: postgresql
+  encoding: unicode
+  database: zaytoon_postgres
+  pool: 5
+  username: zaytoon_postgres_user
+  password: <%= ENV['9zdY4SnepbqrqmvGvlPZdHSRcCzdpwHN'] %>
+  host: <%= ENV['dpg-cr1oc6btq21c73982dd0-a'] %>

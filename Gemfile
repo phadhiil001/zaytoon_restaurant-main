@@ -85,4 +85,4 @@ gem 'font-awesome-sass', '~> 5.15'
 
 gem "stripe", "~> 12.2"
 
-gem "pg", "~> 1.5"
+gem "pg", "~> 1.5", group: :production
